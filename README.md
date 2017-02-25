@@ -1,5 +1,4 @@
-# smartthings-rest-api
-SmartThings REST API
+# SmartThings REST API
 
 ## Setup
 
