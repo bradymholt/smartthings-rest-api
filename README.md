@@ -1,4 +1,4 @@
-# SmartThings REST API
+# [SmartThings](https://www.smartthings.com/) REST API
 
 ## Setup
 
