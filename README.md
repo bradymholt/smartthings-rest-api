@@ -45,7 +45,7 @@ curl -H "Authorization: Bearer xyz123" -X POST \
   https://graph1.smartthings.com/api/smartapps/installations/123987/device/123/command/on
 ```
 
-#### Turn Device On
+#### Turn Device Off
 ```
 curl -H "Authorization: Bearer xyz123" -X POST \
   https://graph1.smartthings.com/api/smartapps/installations/123987/device/123/command/off
