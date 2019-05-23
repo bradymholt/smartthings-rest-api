@@ -50,3 +50,9 @@ curl -H "Authorization: Bearer xyz123" -X POST \
 curl -H "Authorization: Bearer xyz123" -X POST \
   https://graph1.smartthings.com/api/smartapps/installations/123987/device/123/command/off
 ```
+
+#### Adjust Brightness to 50%
+```
+curl -H "Authorization: Bearer xyz123" -X POST \
+  https://graph1.smartthings.com/api/smartapps/installations/123987/device/123/command/setLevel?arg=50
+```
