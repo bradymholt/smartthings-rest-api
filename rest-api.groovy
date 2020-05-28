@@ -15,7 +15,7 @@
  */
 definition(
     name: "REST API",
-    namespace: "bradyholt.smartthingsrest",
+    namespace: "bradymholt",
     author: "Brady Holt",
     description: "SmartThings REST API",
     category: "SmartThings Labs",
