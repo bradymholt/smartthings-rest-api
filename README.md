@@ -14,7 +14,7 @@
 
 ### Get Access Token via OAuth 
 
-1. Open this URL in a browser: https://graph.api.smartthings.com/oauth/authorize\?response_type\=code\&client_id\=abc123\&scope\=app\&redirect_uri\=http://localhost
+1. Replace the client_id value and open this URL in a browser: https://graph.api.smartthings.com/oauth/confirm_access?response_type=code&scope=app&redirect_uri=http%3A%2F%2Flocalhost&client_id=abc123
 2. Login and Click "Authorize".
 3. You will be redirected to http://localhost; note the code query value (i.e. aD4kF5 in http://localhost/?code=aD4kF5)
 4. Run `curl -v -H "Content-Type: application/x-www-form-urlencoded" -X POST --data 'grant_type=authorization_code&code=aD4kF5&client_id=abc123&client_secret=def321&redirect_uri=http%3A%2F%2Flocalhost' https://graph.api.smartthings.com/oauth/token`
